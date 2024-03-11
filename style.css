@@ -1,0 +1,28 @@
+body {
+font-family: sans-serif;
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+background-color: #000;
+overflow: hidden;
+}
+
+h2 {
+font-size: 2em;
+text-align: center;
+}
+
+p {
+font-size: 1.5em;
+text-align: justify;
+padding: 50px;
+}
+
+.cursor {
+height: 100px;
+width: 100px;
+background-color: #fff;
+border-radius: 50%;
+position: absolute;
+z-index: 1;
+}
